@@ -1,5 +1,10 @@
-## Hi there 👋
+# Hi, I'm Aryan 👋
 
+🎓 BSc Biotechnology | Aspiring Bioinformatics Scientist  
+💻 Learning Python, R, NGS, and Data Science
+
+##📜 Certificates:
+ - [Python for Everybody (Getting Started with Python) – Coursera](https://coursera.org/share/c4be46282b30914291ef866f9c0377e0)
 <!--
 **biostackaryan/biostackaryan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
