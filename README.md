@@ -1,6 +1,6 @@
 # Hi, I'm Aryan 👋
 
-🎓 BSc Biotechnology | Aspiring Bioinformatics Scientist  
+🎓 BS Biotechnology | Aspiring Bioinformatics Scientist  
 💻 Learning Python, R, NGS, and Data Science
 
 ## 📜 Certificates
