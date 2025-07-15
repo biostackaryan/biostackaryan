@@ -15,3 +15,6 @@ Here are some of the certifications I’ve completed recently:
 
 
 👉 See all details in [certificates-bioinformatics](https://github.com/biostackaryan/certificates-bioinformatics)
+
+## 📊 GitHub Stats
+![Aryan's GitHub stats](https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=dark)
