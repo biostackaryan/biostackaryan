@@ -6,11 +6,11 @@
 ## 📜 Certificates
 
 Here are some of the certifications I’ve completed recently:
+## 📜 Certifications
 
-- [🐍 Python for Everybody – Getting Started with Python](https://coursera.org/share/c4be46282b30914291ef866f9c0377e0)
-- [🧩 Python Data Structures](https://coursera.org/share/a8a3de452460967880505647bf31c139)
-- [🧬 Applied Bioinformatics](https://coursera.org/share/9e0949b39df5b1268ec541e534e67565)
-- [🌐 Python for Data Access](https://coursera.org/share/4bf42aca2e62368983b956c0494987d7)
+- 🎓 [Python for Everybody Specialization – University of Michigan (Coursera)](https://coursera.org/share/4bd669db36fbd9e5c0adba859703d4c4)  
+- 🧬 [Applied Bioinformatics – Johns Hopkins University (Coursera)](https://coursera.org/share/9e0949b39df5b1268ec541e534e67565)  
+
 
 
 
