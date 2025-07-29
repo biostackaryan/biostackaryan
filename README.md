@@ -9,7 +9,7 @@ Here are some of the certifications I’ve completed recently:
 ## 📜 Certifications
 
 - 🎓 [Python for Everybody Specialization – University of Michigan (Coursera)](https://coursera.org/share/4bd669db36fbd9e5c0adba859703d4c4)  
-- 🧬 [Applied Bioinformatics – Johns Hopkins University (Coursera)](https://coursera.org/share/9e0949b39df5b1268ec541e534e67565)  
+- 🧬 [Applied Bioinformatics – Bhagesh Sachania (Coursera)](https://coursera.org/share/9e0949b39df5b1268ec541e534e67565)    
 
 
 
