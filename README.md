@@ -23,7 +23,8 @@ Here are some of the certifications I’ve completed recently:
 | ![Aryan's GitHub Stats](https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=dark) | ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&layout=compact&theme=dark&hide=C,Makefile) |
 
 
+
 ## 🏆 GitHub Trophies
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=dracula)](https://github.com/ryo-ma/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=darkhub)](https://github.com/ryo-ma/github-profile-trophy)
 
