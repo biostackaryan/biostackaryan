@@ -42,8 +42,6 @@
 
 ## 🔧 Tech Stack  
 
-## 🔧 Tech Stack  
-
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)  
 ![pandas](https://img.shields.io/badge/-pandas-FFCA28?style=flat-square&logo=pandas&logoColor=black)  
 ![matplotlib](https://img.shields.io/badge/-Matplotlib-00C853?style=flat-square&logo=plotly&logoColor=white)  
