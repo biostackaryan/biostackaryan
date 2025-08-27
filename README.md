@@ -34,25 +34,28 @@
 
 ## 🚀 Featured Projects  
 
-- 🧬 [HelixMind](https://github.com/biostackaryan/helixmind) – An Integrated Bioinformatics Toolkit  
-- 🧩 [GC Content Calculator](https://github.com/biostackaryan/gc-content-calculator) – A simple sequence analysis tool  
+- 🧬 [HelixMind](https://github.com/biostackaryan/helixmind) – An Integrated Bioinformatics Toolkit   
 - 📚 [Certificates Repo](https://github.com/biostackaryan/certificates-bioinformatics) – My learning journey showcase  
 
 ---
 
 ## 🔧 Tech Stack  
-
+Languages
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)  
 ![pandas](https://img.shields.io/badge/-pandas-FFCA28?style=flat-square&logo=pandas&logoColor=black)  
 ![matplotlib](https://img.shields.io/badge/-Matplotlib-00C853?style=flat-square&logo=plotly&logoColor=white)  
 ![seaborn](https://img.shields.io/badge/-Seaborn-40C4FF?style=flat-square&logoColor=black)  
 ![Biopython](https://img.shields.io/badge/-Biopython-9C27B0?style=flat-square&logo=dna&logoColor=white)  
-
+---
+NGS TOOLS
 ![KEGG](https://img.shields.io/badge/-KEGG-00ACC1?style=flat-square&logoColor=white)  
 ![PubMed](https://img.shields.io/badge/-PubMed-2962FF?style=flat-square&logoColor=white)  
 ![Entrez](https://img.shields.io/badge/-Entrez-00E676?style=flat-square&logoColor=black)  
 ![PDB](https://img.shields.io/badge/-PDB-FF6D00?style=flat-square&logoColor=white)  
 ![BLAST](https://img.shields.io/badge/-BLAST-D500F9?style=flat-square&logoColor=white)  
+
+---
+General tools
 
 ![Git](https://img.shields.io/badge/-Git-F4511E?style=flat-square&logo=git&logoColor=white)  
 ![Linux](https://img.shields.io/badge/-Linux-FFD600?style=flat-square&logo=linux&logoColor=black)  
