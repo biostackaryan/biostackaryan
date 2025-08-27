@@ -18,12 +18,12 @@
 ## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=dark&hide_border=true" height="160"/>  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&layout=compact&theme=dark&hide=C,Makefile&hide_border=true" height="160"/>  
+  <img src="https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&layout=compact&theme=tokyonight&hide_border=true&hide=C,Makefile&langs_count=6" height="160"/>  
 </p>  
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=biostackaryan&theme=dark&hide_border=true" height="160"/>  
+  <img src="https://streak-stats.demolab.com?user=biostackaryan&theme=tokyonight&hide_border=true" height="160"/>  
 </p>  
 
 ---
@@ -31,8 +31,8 @@
 ## 🏆 GitHub Trophies  
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=onedark&no-frame=true&margin-w=15&margin-h=15" />
-</p>  
+  <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=tokyonight&no-frame=true&margin-w=15&margin-h=15" />
+</p>
 
 ---
 
