@@ -15,7 +15,7 @@
 
 ---
 
-## 📊 GitHub Stats  
+
 
 ## 📊 GitHub Stats
 
@@ -24,7 +24,7 @@
   <img src="https://streak-stats.demolab.com?user=biostackaryan&theme=tokyonight&hide_border=true" height="160"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&theme=tokyonight&hide_border=true&layout=compact" height="160"/>
 </p>
----
+
 
 ## 🏆 GitHub Trophies  
 
