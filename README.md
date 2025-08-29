@@ -15,29 +15,27 @@
 
 ---
 
-
-
-## 📊 GitHub Stats
+## 📊 GitHub Stats  
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://streak-stats.demolab.com?user=biostackaryan&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&theme=tokyonight&hide_border=true&layout=compact" height="160"/>
-</p>
+  <img src="https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=tokyonight&hide_border=true" width="32%"/>
+  <img src="https://streak-stats.demolab.com?user=biostackaryan&theme=tokyonight&hide_border=true" width="32%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&theme=tokyonight&hide_border=true&layout=compact" width="32%"/>
+</p>  
 
+---
 
 ## 🏆 GitHub Trophies  
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6"/>
-</p>
+  <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&margin-h=8&row=1&column=6"/>
+</p>  
 
 ---
 
 ## 🚀 Featured Projects  
 
 - 🧬 [HelixMind](https://github.com/biostackaryan/helixmind) – An Integrated Bioinformatics Toolkit  
-
 
 ---
 
@@ -72,7 +70,8 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=biostackaryan&color=blueviolet&style=flat-square" alt="Profile Views"/>
-</p>  
+  <img src="https://komarev.com/ghpvc/?username=biostackaryan&color=2E3440&style=flat-square" alt="Profile Views"/>
+</p>
+
 
 ⭐ If you like my work, consider giving a star to my repositories!  
