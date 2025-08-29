@@ -28,8 +28,14 @@
 ## 🏆 GitHub Trophies  
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=tokyonight&no-frame=true&margin-w=8&margin-h=8&row=1&column=6"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=darkhub&no-frame=true&margin-w=10&margin-h=10&row=1&column=6"/>
 </p>
+
+---
+
+## 📊 GitHub Metrics  
+
+![Metrics](https://metrics.lecoq.io/biostackaryan?template=classic&isocalendar=1&languages=1&introduction=1&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.limit=6&config.timezone=Asia%2FKolkata)
 
 ---
 
@@ -72,6 +78,5 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=biostackaryan&color=2E3440&style=flat-square" alt="Profile Views"/>
 </p>
-
 
 ⭐ If you like my work, consider giving a star to my repositories!  
