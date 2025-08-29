@@ -15,25 +15,16 @@
 
 ---
 
-## 📊 GitHub Stats  
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=biostackaryan&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=biostackaryan&theme=tokyonight&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&theme=tokyonight&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="160"/>  
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&layout=compact&theme=tokyonight&hide_border=true&hide=C,Makefile&langs_count=6" height="160"/>  
-</p>  
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=biostackaryan&theme=tokyonight&hide_border=true" height="160"/>  
-</p>  
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=tokyonight&no-frame=false&no-bg=true&margin-w=4)
 
 ---
-
-## 🏆 GitHub Trophies  
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=matrix&no-frame=true&margin-w=15&margin-h=15" />
-</p>
-
+[![](https://visitcount.itsvg.in/api?id=biostackaryan&icon=0&color=8)](https://visitcount.itsvg.in)
 
 ---
 
