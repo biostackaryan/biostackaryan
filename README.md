@@ -66,29 +66,12 @@
 
 ---
 
-## 📊 GitHub Stats  
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=tokyonight&hide_border=true" width="32%"/>
-  <img src="https://streak-stats.demolab.com?user=biostackaryan&theme=tokyonight&hide_border=true" width="32%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&theme=tokyonight&hide_border=true&layout=compact" width="32%"/>
-</p>
-
----
 
 ## 🏆 GitHub Trophies  
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=darkhub&row=1&column=6&margin-w=10&margin-h=10" />
 </p>
-
----
-
-## 📚 Publications (Future Slots)  
-
-- 🔬 Research paper on ML + Virtual Screening  
-- 🧬 Internship-based bioinformatics project  
-- 📊 NGS / Data Science analysis report  
 
 ---
 
