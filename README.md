@@ -18,8 +18,7 @@
 
 - 🔭 Currently developing **[HelixMIND](https://huggingface.co/spaces/Biostackaryan/helixmind)**  
 - 🌱 Learning bioinformatics methods through **BGTI Internship**  
-- 📌 Passionate about **NGS Analysis • Data Visualization • Python Automation**  
-- 👨‍💻 All projects here: **[Certificates & Projects Repo](https://github.com/biostackaryan/certificates-bioinformatics)**  
+- 📌 Passionate about **NGS Analysis • Data Visualization • Python Automation**   
 - 📫 Email → **aryann.dutt0@gmail.com**  
 
 ---
