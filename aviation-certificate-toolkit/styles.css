@@ -1,0 +1,547 @@
+/* Aviation Certificate Toolkit Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    min-height: 100vh;
+    color: #e0e0e0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00d4ff;
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #a0a0a0;
+}
+
+/* Main Layout */
+.controls-panel,
+.preview-panel {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 25px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.controls-panel h2,
+.preview-panel h2 {
+    color: #00d4ff;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid rgba(0, 212, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+.controls-panel h3 {
+    color: #ffd700;
+    margin: 20px 0 15px 0;
+    font-size: 1.2rem;
+}
+
+.controls-panel h4 {
+    color: #00ff88;
+    margin: 15px 0 10px 0;
+    font-size: 1rem;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #b0b0b0;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #00d4ff;
+    box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+.form-group select option {
+    background: #1a1a2e;
+    color: #fff;
+}
+
+/* Coordinate Grid */
+.coord-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.custom-coords {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn.primary {
+    background: linear-gradient(135deg, #00d4ff, #0099cc);
+    color: #fff;
+}
+
+.btn.success {
+    background: linear-gradient(135deg, #00ff88, #00cc6a);
+    color: #1a1a2e;
+}
+
+.btn.info {
+    background: linear-gradient(135deg, #ffd700, #ffb000);
+    color: #1a1a2e;
+}
+
+.btn.secondary {
+    background: linear-gradient(135deg, #6c757d, #495057);
+    color: #fff;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Page Tabs */
+.page-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-radius: 8px;
+    background: transparent;
+    color: #a0a0a0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.tab:hover {
+    border-color: #00d4ff;
+    color: #00d4ff;
+}
+
+.tab.active {
+    background: linear-gradient(135deg, #00d4ff, #0099cc);
+    color: #fff;
+    border-color: #00d4ff;
+}
+
+/* Certificate Preview */
+.certificate-preview {
+    background: #f5f5dc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.certificate-page {
+    display: none;
+    min-height: 600px;
+}
+
+.certificate-page.active {
+    display: block;
+}
+
+.certificate-border {
+    border: 15px solid #b8860b;
+    margin: 20px;
+    background: linear-gradient(to bottom, #fffef5, #fff8dc);
+    position: relative;
+}
+
+.certificate-border::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 2px solid #daa520;
+    pointer-events: none;
+}
+
+.certificate-content {
+    padding: 40px;
+    text-align: center;
+    color: #2c2c2c;
+    position: relative;
+    min-height: 500px;
+}
+
+/* Certificate Elements */
+.cert-element {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    transition: all 0.3s ease;
+}
+
+.cert-element.title {
+    top: 10%;
+}
+
+.cert-element.presented {
+    top: 28%;
+}
+
+.cert-element.recipient-name {
+    top: 35%;
+}
+
+.cert-element.details {
+    top: 50%;
+}
+
+.cert-element.footer {
+    top: 75%;
+}
+
+.cert-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.certificate-content h2 {
+    font-size: 2rem;
+    color: #8b4513;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.cert-subtitle {
+    font-size: 1.1rem;
+    color: #666;
+    font-style: italic;
+}
+
+.recipient-name h1 {
+    font-size: 2.5rem;
+    color: #1a1a4e;
+    font-family: 'Georgia', serif;
+    border-bottom: 3px double #daa520;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.detail-text {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.course-name {
+    font-size: 1.3rem;
+    color: #1a1a4e;
+    font-weight: 600;
+}
+
+/* Signature Section */
+.signature-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px;
+    align-items: flex-end;
+}
+
+.signature-box,
+.date-box,
+.cert-number-box {
+    text-align: center;
+}
+
+.signature-line {
+    width: 150px;
+    border-bottom: 2px solid #333;
+    margin: 0 auto 10px;
+}
+
+.signature-box p,
+.date-box p,
+.cert-number-box p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 3px 0;
+}
+
+.instructor-name,
+.date-value,
+.cert-num-value {
+    font-weight: 600;
+    color: #1a1a4e !important;
+}
+
+/* Decorative Corners */
+.decorative-corners .corner {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-color: #daa520;
+    border-style: solid;
+}
+
+.corner.top-left {
+    top: 10px;
+    left: 10px;
+    border-width: 3px 0 0 3px;
+}
+
+.corner.top-right {
+    top: 10px;
+    right: 10px;
+    border-width: 3px 3px 0 0;
+}
+
+.corner.bottom-left {
+    bottom: 10px;
+    left: 10px;
+    border-width: 0 0 3px 3px;
+}
+
+.corner.bottom-right {
+    bottom: 10px;
+    right: 10px;
+    border-width: 0 3px 3px 0;
+}
+
+/* Info Pages (2, 3, 4) */
+.info-page .certificate-content {
+    text-align: left;
+    padding: 30px 40px;
+}
+
+.info-page h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.info-content h3 {
+    color: #8b4513;
+    font-size: 1.2rem;
+    margin: 20px 0 10px 0;
+    border-bottom: 1px solid #daa520;
+    padding-bottom: 5px;
+}
+
+.info-content p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.info-content ul,
+.info-content ol {
+    margin-left: 20px;
+    color: #444;
+    line-height: 1.8;
+}
+
+/* Training Table */
+.training-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.training-table th,
+.training-table td {
+    padding: 12px;
+    border: 1px solid #daa520;
+    text-align: left;
+}
+
+.training-table th {
+    background: #8b4513;
+    color: #fff;
+}
+
+.training-table tr:nth-child(even) {
+    background: rgba(218, 165, 32, 0.1);
+}
+
+.total-hours {
+    text-align: right;
+    font-size: 1.2rem;
+    color: #8b4513;
+    margin-top: 15px;
+}
+
+/* QR Placeholder */
+.qr-placeholder {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.qr-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #8b4513;
+    background: #fff;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-box p {
+    font-weight: 600;
+    color: #8b4513;
+}
+
+.qr-box small {
+    color: #666;
+}
+
+/* Official Stamp */
+.official-stamp {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.stamp-circle {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border: 4px double #8b4513;
+    border-radius: 50%;
+    color: #8b4513;
+    font-weight: bold;
+    transform: rotate(-10deg);
+}
+
+.stamp-circle span:nth-child(2) {
+    font-size: 2rem;
+}
+
+/* Print Styles */
+@media print {
+    body {
+        background: white;
+    }
+    
+    .controls-panel,
+    .page-tabs,
+    header {
+        display: none;
+    }
+    
+    .preview-panel {
+        background: none;
+        border: none;
+        padding: 0;
+    }
+    
+    .preview-panel h2 {
+        display: none;
+    }
+    
+    .certificate-page {
+        page-break-after: always;
+        display: block !important;
+    }
+    
+    .certificate-preview {
+        box-shadow: none;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .coord-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .button-group {
+        flex-direction: column;
+    }
+    
+    .signature-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .certificate-content {
+        padding: 20px;
+    }
+    
+    .recipient-name h1 {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+    }
+}

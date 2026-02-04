@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviation Certificate Toolkit</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>✈️ Aviation Certificate Toolkit</h1>
+            <p class="subtitle">Generate professional aviation certificates with customizable coordinates</p>
+        </header>
+
+        <div class="controls-panel">
+            <h2>Certificate Settings</h2>
+            
+            <div class="form-group">
+                <label for="certificateType">Certificate Type:</label>
+                <select id="certificateType">
+                    <option value="flight-completion">Flight Completion Certificate</option>
+                    <option value="pilot-training">Pilot Training Certificate</option>
+                    <option value="safety-training">Safety Training Certificate</option>
+                    <option value="maintenance-certification">Maintenance Certification</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="recipientName">Recipient Name:</label>
+                <input type="text" id="recipientName" placeholder="Enter recipient's full name">
+            </div>
+
+            <div class="form-group">
+                <label for="issueDate">Issue Date:</label>
+                <input type="date" id="issueDate">
+            </div>
+
+            <div class="form-group">
+                <label for="certificateNumber">Certificate Number:</label>
+                <input type="text" id="certificateNumber" placeholder="e.g., AV-2024-001">
+            </div>
+
+            <div class="form-group">
+                <label for="courseDetails">Course/Training Details:</label>
+                <textarea id="courseDetails" rows="3" placeholder="Enter course or training details"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="instructorName">Instructor/Issuer Name:</label>
+                <input type="text" id="instructorName" placeholder="Enter instructor's name">
+            </div>
+
+            <h3>📍 Coordinate Presets (Page Layout)</h3>
+            <div class="form-group">
+                <label for="coordinatePreset">Select Layout Preset:</label>
+                <select id="coordinatePreset" onchange="applyCoordinatePreset()">
+                    <option value="standard">Standard Layout</option>
+                    <option value="centered">Centered Layout</option>
+                    <option value="left-aligned">Left Aligned Layout</option>
+                    <option value="compact">Compact Layout</option>
+                    <option value="expanded">Expanded Layout</option>
+                    <option value="custom">Custom Coordinates</option>
+                </select>
+            </div>
+
+            <div id="customCoordinates" class="custom-coords hidden">
+                <h4>Custom Coordinate Settings</h4>
+                <div class="coord-grid">
+                    <div class="form-group">
+                        <label for="titleX">Title X Position (%):</label>
+                        <input type="number" id="titleX" min="0" max="100" value="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="titleY">Title Y Position (%):</label>
+                        <input type="number" id="titleY" min="0" max="100" value="15">
+                    </div>
+                    <div class="form-group">
+                        <label for="nameX">Name X Position (%):</label>
+                        <input type="number" id="nameX" min="0" max="100" value="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="nameY">Name Y Position (%):</label>
+                        <input type="number" id="nameY" min="0" max="100" value="40">
+                    </div>
+                    <div class="form-group">
+                        <label for="detailsX">Details X Position (%):</label>
+                        <input type="number" id="detailsX" min="0" max="100" value="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="detailsY">Details Y Position (%):</label>
+                        <input type="number" id="detailsY" min="0" max="100" value="55">
+                    </div>
+                    <div class="form-group">
+                        <label for="footerX">Footer X Position (%):</label>
+                        <input type="number" id="footerX" min="0" max="100" value="50">
+                    </div>
+                    <div class="form-group">
+                        <label for="footerY">Footer Y Position (%):</label>
+                        <input type="number" id="footerY" min="0" max="100" value="85">
+                    </div>
+                </div>
+                <button class="btn secondary" onclick="updatePreview()">Apply Custom Coordinates</button>
+            </div>
+
+            <div class="button-group">
+                <button class="btn primary" onclick="updatePreview()">🔄 Update Preview</button>
+                <button class="btn success" onclick="generatePDF()">📄 Generate PDF</button>
+                <button class="btn info" onclick="printCertificate()">🖨️ Print Certificate</button>
+            </div>
+        </div>
+
+        <div class="preview-panel">
+            <h2>Certificate Preview</h2>
+            <div class="page-tabs">
+                <button class="tab active" data-page="1" onclick="showPage(1)">Page 1 (Editable)</button>
+                <button class="tab" data-page="2" onclick="showPage(2)">Page 2</button>
+                <button class="tab" data-page="3" onclick="showPage(3)">Page 3</button>
+                <button class="tab" data-page="4" onclick="showPage(4)">Page 4</button>
+            </div>
+            
+            <div id="certificatePreview" class="certificate-preview">
+                <!-- Page 1 - Editable Certificate -->
+                <div id="page1" class="certificate-page active">
+                    <div class="certificate-border">
+                        <div class="certificate-content">
+                            <div class="cert-element title" id="certTitle">
+                                <div class="cert-icon">✈️</div>
+                                <h2>CERTIFICATE OF COMPLETION</h2>
+                                <div class="cert-subtitle">Aviation Training Program</div>
+                            </div>
+                            
+                            <div class="cert-element presented" id="certPresented">
+                                <p>This certificate is proudly presented to</p>
+                            </div>
+                            
+                            <div class="cert-element recipient-name" id="certName">
+                                <h1>[Recipient Name]</h1>
+                            </div>
+                            
+                            <div class="cert-element details" id="certDetails">
+                                <p class="detail-text">For successfully completing the training program</p>
+                                <p class="course-name">[Course Details]</p>
+                            </div>
+                            
+                            <div class="cert-element footer" id="certFooter">
+                                <div class="signature-section">
+                                    <div class="signature-box">
+                                        <div class="signature-line"></div>
+                                        <p>Instructor Signature</p>
+                                        <p class="instructor-name">[Instructor Name]</p>
+                                    </div>
+                                    <div class="date-box">
+                                        <p class="date-label">Date Issued</p>
+                                        <p class="date-value">[Issue Date]</p>
+                                    </div>
+                                    <div class="cert-number-box">
+                                        <p class="cert-num-label">Certificate No.</p>
+                                        <p class="cert-num-value">[Certificate Number]</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="decorative-corners">
+                                <span class="corner top-left"></span>
+                                <span class="corner top-right"></span>
+                                <span class="corner bottom-left"></span>
+                                <span class="corner bottom-right"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 2 - Terms and Conditions -->
+                <div id="page2" class="certificate-page">
+                    <div class="certificate-border info-page">
+                        <div class="certificate-content">
+                            <h2>✈️ Terms and Conditions</h2>
+                            <div class="info-content">
+                                <h3>Certificate Validity</h3>
+                                <p>This certificate is valid for a period of 2 years from the date of issue unless otherwise specified.</p>
+                                
+                                <h3>Renewal Requirements</h3>
+                                <ul>
+                                    <li>Complete refresher training within 30 days of expiry</li>
+                                    <li>Pass the practical assessment</li>
+                                    <li>Submit renewal application with supporting documents</li>
+                                </ul>
+                                
+                                <h3>Important Notice</h3>
+                                <p>This certificate must be presented upon request by authorized personnel. Unauthorized reproduction or alteration of this certificate is strictly prohibited.</p>
+                                
+                                <h3>Contact Information</h3>
+                                <p>For verification or inquiries, please contact the issuing authority.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 3 - Training Record -->
+                <div id="page3" class="certificate-page">
+                    <div class="certificate-border info-page">
+                        <div class="certificate-content">
+                            <h2>✈️ Training Record</h2>
+                            <div class="info-content">
+                                <table class="training-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Module</th>
+                                            <th>Hours</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Ground School Training</td>
+                                            <td>40</td>
+                                            <td>✓ Complete</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Flight Simulator Practice</td>
+                                            <td>20</td>
+                                            <td>✓ Complete</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Actual Flight Hours</td>
+                                            <td>50</td>
+                                            <td>✓ Complete</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Safety Procedures</td>
+                                            <td>10</td>
+                                            <td>✓ Complete</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Emergency Protocols</td>
+                                            <td>15</td>
+                                            <td>✓ Complete</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                
+                                <div class="total-hours">
+                                    <strong>Total Training Hours: 135</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Page 4 - Verification -->
+                <div id="page4" class="certificate-page">
+                    <div class="certificate-border info-page">
+                        <div class="certificate-content">
+                            <h2>✈️ Certificate Verification</h2>
+                            <div class="info-content">
+                                <div class="qr-placeholder">
+                                    <div class="qr-box">
+                                        <p>QR Code</p>
+                                        <small>Scan to verify</small>
+                                    </div>
+                                </div>
+                                
+                                <h3>Verification Instructions</h3>
+                                <ol>
+                                    <li>Scan the QR code above using any QR scanner app</li>
+                                    <li>You will be redirected to the verification portal</li>
+                                    <li>Enter the certificate number when prompted</li>
+                                    <li>View the certificate details and verification status</li>
+                                </ol>
+                                
+                                <h3>Alternative Verification</h3>
+                                <p>You may also verify this certificate by:</p>
+                                <ul>
+                                    <li>Visiting our official website</li>
+                                    <li>Calling our verification hotline</li>
+                                    <li>Emailing verification@aviation-training.com</li>
+                                </ul>
+                                
+                                <div class="official-stamp">
+                                    <div class="stamp-circle">
+                                        <span>OFFICIAL</span>
+                                        <span>✈️</span>
+                                        <span>VERIFIED</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
