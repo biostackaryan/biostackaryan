@@ -2,6 +2,27 @@
 
 A web-based toolkit for generating professional aviation certificates with customizable coordinates and layouts.
 
+## 🚀 How to Open the Toolkit
+
+### Option 1: Double-Click (Easiest)
+1. Download or clone this repository
+2. Navigate to the `aviation-certificate-toolkit` folder
+3. **Double-click on `index.html`** - it will open in your default web browser
+
+### Option 2: Open from Browser
+1. Open any web browser (Chrome, Firefox, Safari, Edge)
+2. Press `Ctrl+O` (Windows/Linux) or `Cmd+O` (Mac)
+3. Navigate to the `aviation-certificate-toolkit` folder
+4. Select `index.html` and click "Open"
+
+### Option 3: Drag and Drop
+1. Open your web browser
+2. Drag the `index.html` file and drop it into the browser window
+
+> **Note**: No installation or server required! The toolkit runs entirely in your browser.
+
+---
+
 ## Features
 
 - **Multiple Certificate Types**: Choose from Flight Completion, Pilot Training, Safety Training, or Maintenance Certification
