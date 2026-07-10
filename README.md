@@ -10,7 +10,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=biostackaryan&color=00e5ff&style=flat-square&label=PROFILE+VIEWS)](https://github.com/biostackaryan)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/aryan-dutt-4a0986371)
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/biostackaryan)
-[![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=flat-square&logoColor=black)](https://huggingface.co/spaces/Biostackaryan/helixmind)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/Biostackaryan/helixmind)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aryann.dutt0@gmail.com)
 
 </div>
@@ -195,6 +195,13 @@ aryan = {
 <img src="https://raw.githubusercontent.com/biostackaryan/biostackaryan/output/github-contribution-grid-snake-dark.svg" alt="contribution snake"/>
 
 </div>
+
+<!--
+  NOTE: this image will keep showing as broken until the snake.yml workflow
+  (included alongside this file) runs at least once in your repo. It generates
+  the "output" branch and the SVG that this <img> tag points to. See the
+  workflow file for the one-time setup steps.
+-->
 
 ---
 
