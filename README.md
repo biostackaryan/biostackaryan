@@ -43,7 +43,7 @@ aryan = {
 
 ### 🧬 HelixMIND — Integrated Bioinformatics Toolkit
 
-[![HelixMIND](https://github-readme-stats.vercel.app/api/pin/?username=biostackaryan&repo=helixmind&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/biostackaryan/helixmind)
+[![HelixMIND](https://github-readme-stats-biostackaryan1.vercel.app/api/pin/?username=biostackaryan&repo=helixmind&theme=tokyonight&hide_border=true&bg_color=0d1117)](https://github.com/biostackaryan/helixmind)
 
 > A unified platform to search, annotate, and visualize biological data — wrapping BLAST, Entrez, KEGG, and PDB into streamlined Python workflows.
 
@@ -162,12 +162,12 @@ aryan = {
 ## `$ git log --stat`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=biostackaryan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" width="48%"/>
+  <img src="https://github-readme-stats-biostackaryan1.vercel.app/api?username=biostackaryan&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&icon_color=00e5ff&text_color=c9d1d9" width="48%"/>
   <img src="https://streak-stats.demolab.com?user=biostackaryan&theme=tokyonight&hide_border=true&background=0d1117&ring=00e5ff&fire=00e5ff&currStreakLabel=00e5ff" width="48%"/>
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=biostackaryan&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&layout=compact" width="40%"/>
+  <img src="https://github-readme-stats-biostackaryan1.vercel.app/api/top-langs/?username=biostackaryan&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00e5ff&layout=compact" width="40%"/>
 </div>
 
 ```
