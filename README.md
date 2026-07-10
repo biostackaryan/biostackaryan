@@ -182,7 +182,7 @@ aryan = {
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=biostackaryan&theme=radical&no-bg=true&no-frame=true&row=1&column=6&margin-w=12"/>
+<img src="https://github-profile-trophy-beige-two.vercel.app/?username=biostackaryan&theme=radical&no-bg=true&no-frame=true&row=1&column=6&margin-w=12"/>
 
 </div>
 
