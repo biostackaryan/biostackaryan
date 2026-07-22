@@ -89,36 +89,47 @@ aryan = {
 
 ---
 
-## `$ pip list`
+## 💻 `$ pip list`
 
-**Languages**
+### 🧬 Programming & Scripting
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
-**Bioinformatics & Data Science**
+### 🧪 Bioinformatics & Computational Biology
 
 ![Biopython](https://img.shields.io/badge/Biopython-3776AB?style=flat-square&logo=python&logoColor=white)
+![BLAST](https://img.shields.io/badge/BLAST-8E24AA?style=flat-square)
+![PubMed](https://img.shields.io/badge/PubMed-2962FF?style=flat-square)
+![RCSB PDB](https://img.shields.io/badge/RCSB_PDB-FF6D00?style=flat-square)
+![KEGG](https://img.shields.io/badge/KEGG-00ACC1?style=flat-square)
+
+### 💊 Drug Discovery
+
+![Molecular Docking](https://img.shields.io/badge/Molecular_Docking-4CAF50?style=flat-square)
+![AutoDock Vina](https://img.shields.io/badge/AutoDock_Vina-2E7D32?style=flat-square)
+![PyMOL](https://img.shields.io/badge/PyMOL-1976D2?style=flat-square)
+![GROMACS](https://img.shields.io/badge/GROMACS-FF9800?style=flat-square)
+![Molecular Dynamics](https://img.shields.io/badge/Molecular_Dynamics-1565C0?style=flat-square)
+
+### 🤖 Data Science & Machine Learning
+
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
 ![Seaborn](https://img.shields.io/badge/Seaborn-40C4FF?style=flat-square)
+![Random Forest](https://img.shields.io/badge/Random_Forest-2E7D32?style=flat-square)
 
-**Databases & Tools**
-
-![BLAST](https://img.shields.io/badge/BLAST-D500F9?style=flat-square)
-![NCBI](https://img.shields.io/badge/NCBI_Entrez-00E676?style=flat-square)
-![KEGG](https://img.shields.io/badge/KEGG-00ACC1?style=flat-square)
-![PDB](https://img.shields.io/badge/RCSB_PDB-FF6D00?style=flat-square)
-![PubMed](https://img.shields.io/badge/PubMed-2962FF?style=flat-square)
-
-**DevOps & Deployment**
+### ⚙️ Tools & Deployment
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 
 ---
 
